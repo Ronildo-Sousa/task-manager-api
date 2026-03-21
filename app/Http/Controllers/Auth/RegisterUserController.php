@@ -9,7 +9,7 @@ use App\Http\Requests\RegisterUserRequest;
 use Illuminate\Support\Facades\DB;
 use Symfony\Component\HttpFoundation\Response;
 
-class RegisterUsercontroller extends Controller
+class RegisterUserController extends Controller
 {
     public function __invoke(RegisterUserRequest $request)
     {
